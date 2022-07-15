@@ -1,2 +1,131 @@
 @import url('../Vendor/normalize.css');
 @import url('../Vendor/fonts.css');
+
+.page{
+    display: flex;
+    flex-direction: column;
+    background-color: #2A2C2F;
+    font-family:  'Inter', 'Arial', sans-serif;
+    color: #FFFFFF;
+}
+
+.header{
+    padding: 1.75rem 3rem 3.5rem;
+    height: 3.25rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.header__lang-link{
+    justify-self: end;
+    font-weight: 400;
+    line-height: 1.75rem;
+    font-size: 1.5rem;
+}
+
+.header__lang-link:first-child{
+    padding-right: 1rem;
+    text-decoration-line: underline;
+}
+
+.lead{
+    align-self: center;
+    max-width: 76.875%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;;
+    gap: 35px;
+}
+
+.lead__title{
+    margin: 0;
+    padding: 0 8.25rem;
+    font-weight: 900;
+    font-size: 6rem;
+    line-height: 6.25rem;
+    text-align: center;
+}
+
+.lead__subtitle{
+    margin: 0;
+    padding: 0 10.75rem;
+    font-size: 1.875rem;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.lead__image{
+    width: 100%;
+}
+
+.lead__caption{
+    margin: 0;
+    font-size: .625rem;
+    line-height: 1.4;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    align-self: center;
+}
+
+.intro{
+    max-width: 690px;
+    padding: 92px 0;
+    padding-left: 11.5625%;
+}
+
+.intro__title{
+    margin: 0; 
+    font-weight: 900;
+    font-size: 3.375rem;
+    line-height: 3.625rem;
+}
+
+.intro__text{
+    margin: 0;
+    padding: 40px 0 33px 0;
+    line-height: 26.08px;
+}
+
+.intro__list{
+    list-style: none;
+    padding: 0;
+    font-size: 0.75rem;
+    line-height: 1.5;
+}
+
+/*.photo-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    padding: 0 3rem;
+    gap: 1rem;
+}
+
+.photo-grid__item{
+    width: 100%;
+} */
+
+.photo-grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 3rem;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.places{
+    display: flex;
+    flex-direction: column;
+    width: 76.875%;
+}
+
+.place{
+    align-self: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
