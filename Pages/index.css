@@ -149,6 +149,7 @@
 .place__title{
     margin: 0;
     width: 46.75%;
+    min-width: 460px;
     font-size: 72px;
     line-height: 76px;
     font-weight: 900;
@@ -185,6 +186,9 @@
 
 .place__image{
     width: 46.75%;
+    min-width: 460px;
+    object-fit: contain;
+    object-position: top;
 }
 
 .place__paragraph{
@@ -277,5 +281,255 @@
     margin: 0;
     font-size: 14px;
     line-height: 16px;
+}
+
+@media screen and (max-width: 1279px){
+    .header{
+        padding-bottom: 48px;
+    }
+
+    .lead{
+        width: 90.625%;
+        gap: 0;
+    }
+
+    .lead__subtitle{
+        padding-top: 32px;
+        padding-bottom: 56px;
+    }
+
+    .lead__caption{
+        padding-top: 8px;
+        align-self: flex-start;
+    }
+
+    .intro{
+        padding-left: 4.6875%;
+    }
+
+    .photo-grid{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 14px;
+    }
+
+    .places{
+        width: 90.625%;
+    }
+
+    .place{
+        gap: 48px 32px;
+    }
+
+    .place__image{
+        min-width: 440px;
+    }
+
+    .place__title{
+        min-width: 440px;
+    }
+
+    .place__paragraphs{
+        min-width: 456px;
+    }
+
+    .cover{
+        width: 100%;
+        height: calc(740/1184*100vw);
+    }
+
+}
+
+@media screen and (max-width: 1023px){
+    .header{
+        padding: 28px 24px 48px;
+    }
+
+    .lead{
+        width: 100%;
+    }
+
+    .lead__title{
+        padding: 0 24px;
+    }
+
+    .lead__subtitle{
+        padding: 32px 64px 56px;
+    }
+
+    .lead__caption{
+        padding-left: 24px;
+    }
+
+    .intro{
+        max-width: 720px;
+        padding: 88px 3.125%
+    }
+
+    .photo-grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        padding: 0 24px;
+        gap: 16px;
+    }
+
+    .places{
+        padding: 88px 0 90px;
+        gap: 73px;
+        width: 93.75%;
+    }
+
+    .place{
+        gap: 48px 28px;
+    }
+
+    .place__image{
+        min-width: 340px;
+    }
+
+    .place__title{
+        font-size: 42px;
+        line-height: 46px;
+        min-width: 340px;
+    }
+
+    .place__paragraphs{
+        min-width: 352px;
+        gap: 25px;
+    }
+
+    .place__paragraph{
+        font-size: 16px;
+    }
+
+    .footer{
+        padding: 88px 24px 24px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .header{
+        height: 42px;
+        padding: 16px 16px 48px;
+    }
+
+    .header__logo{
+        width: 142px;
+    }
+
+    .header__lang-link{
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .lead__title{
+        font-size: 40px;
+        line-height: 1.1;
+        padding: 0 16px;
+    }
+
+    .lead__subtitle{
+        font-size: 16px;
+        line-height: 1.25;
+        padding: 16px 16px 40px;
+    }
+
+    .lead__caption{
+        padding-top: 8px;
+        padding-left: 5%;
+    }
+
+    .intro{
+        padding: 64px 5%;
+    }
+
+    .intro__title{
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .photo-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(12, 1fr);
+        padding: 0 16px;
+        gap: 12px;
+    }
+
+    .places{
+        padding: 64px 0 66px;
+        width: 100%;
+        gap: 50px;
+    }
+
+    .place{
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .place__title{
+        padding-left: 5%;
+        min-width: 288px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .place__website{
+        padding-left: 5%;
+        min-width: 288px;
+    }
+
+    .place__image{
+        width: 100%;
+        min-width: 320px;
+    }
+
+    .place__paragraphs{
+        min-width: auto;
+        width: 100%;
+    }
+
+    .place__paragraph{
+        min-width: auto;
+        padding: 0 5%;
+    }
+
+    .cover__title{
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .cover__subtitle{
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .footer{
+        padding-top: 64px;
+        padding-left: 5%;
+        padding-bottom: 24px;
+        gap: 48px;
+        flex-direction: column;
+    }
+
+    .footer__links-holder{
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .footer__link{
+        font-size: 24px;
+        line-height: 1;
+    }
+
+    .footer__copyright{
+        font-size: 14px;
+        line-height: 1;
+    }
+
+
 }
 
