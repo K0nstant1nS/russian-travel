@@ -29,8 +29,8 @@
     font-size: 24px;
 }
 
-.header__lang-link:first-child{
-    text-decoration-line: underline;
+.header__lang-link_active{
+    text-decoration: underline;
 }
 
 .lead{
@@ -46,8 +46,8 @@
     margin: 0;
     padding: 0 132px;
     font-weight: 900;
-    font-size: 6rem;
-    line-height: 6.25rem;
+    font-size: 96px;
+    line-height: 100px;
     text-align: center;
 }
 
@@ -81,8 +81,8 @@
 .intro__title{
     margin: 0; 
     font-weight: 900;
-    font-size: 3.375rem;
-    line-height: 3.625rem;
+    font-size: 54px;
+    line-height: 58px;
 }
 
 .intro__text{
@@ -95,7 +95,7 @@
     list-style: none;
     padding: 0;
     margin: 0;
-    font-size: 0.75rem;
+    font-size: 12px;
     line-height: 1.5;
 }
 
@@ -103,8 +103,8 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    padding: 0 3rem;
-    gap: 1rem;
+    padding: 0 48px;
+    gap: 16px;
 }
 
 .photo-grid__item{
@@ -283,7 +283,7 @@
     line-height: 16px;
 }
 
-@media screen and (max-width: 1279px){
+@media screen and (max-width: 1279.9px){
     .header{
         padding-bottom: 48px;
     }
@@ -318,7 +318,7 @@
     }
 
     .place{
-        gap: 48px 32px;
+        column-gap: 32px;
     }
 
     .place__image{
@@ -340,7 +340,7 @@
 
 }
 
-@media screen and (max-width: 1023px){
+@media screen and (max-width: 1023.9px){
     .header{
         padding: 28px 24px 48px;
     }
@@ -358,7 +358,7 @@
     }
 
     .lead__caption{
-        padding-left: 24px;
+        padding-left: 3.125%;
     }
 
     .intro{
@@ -367,11 +367,9 @@
     }
 
     .photo-grid{
-        display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6, 1fr);
         padding: 0 24px;
-        gap: 16px;
     }
 
     .places{
@@ -381,7 +379,7 @@
     }
 
     .place{
-        gap: 48px 28px;
+        column-gap: 28px;
     }
 
     .place__image{
@@ -405,12 +403,10 @@
 
     .footer{
         padding: 88px 24px 24px;
-        display: flex;
-        justify-content: space-between;
     }
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767.9px){
     .header{
         height: 42px;
         padding: 16px 16px 48px;
@@ -452,7 +448,6 @@
     }
 
     .photo-grid{
-        display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(12, 1fr);
         padding: 0 16px;
@@ -493,7 +488,6 @@
     }
 
     .place__paragraph{
-        min-width: auto;
         padding: 0 5%;
     }
 
@@ -526,7 +520,6 @@
     }
 
     .footer__copyright{
-        font-size: 14px;
         line-height: 1;
     }
 
