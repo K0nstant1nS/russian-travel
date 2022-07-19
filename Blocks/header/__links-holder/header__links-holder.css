@@ -1,0 +1,5 @@
+.header__links-holder{
+    display: flex;
+    gap: 16px;
+    align-items: flex-end;
+}

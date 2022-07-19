@@ -1,0 +1,24 @@
+.cover{
+    position: relative;
+    -ms-grid-row-align: center;
+        align-self: center;
+    width: 92.5%;
+    height: calc(740/1184*100vw*0.925);
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover:hover .cover__overlay{
+    opacity: .8;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1279.9px){
+    .cover{
+        width: 100%;
+        height: calc(740/1184*100vw);
+    }
+}
