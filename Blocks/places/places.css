@@ -1,7 +1,6 @@
 .places{
+    max-width: 984px;
     display: flex;
-    -ms-grid-row-align: center;
-        align-self: center;
     flex-direction: column;
     gap: 80px;
     width: 76.875%;

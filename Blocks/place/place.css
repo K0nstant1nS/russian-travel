@@ -1,6 +1,4 @@
 .place{
-    -ms-grid-row-align: center;
-        align-self: center;
     width: 100%;
     display: flex;
     flex-direction: row;
