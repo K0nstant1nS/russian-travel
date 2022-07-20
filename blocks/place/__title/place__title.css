@@ -9,17 +9,17 @@
 
 @media screen and (max-width: 1279.9px){
     .place__title{
-        width: calc(440/928*100%);
-        min-width: 440px;
+        width: calc(440/928*100% - 10px);
+        min-width: 430px;
     }
 }
 
 @media screen and (max-width: 1023.9px){
     .place__title{
-        width: calc(340/720*100%);
+        width: calc(340/720*100% - 10px);
         font-size: 42px;
         line-height: 46px;
-        min-width: 340px;
+        min-width: 330px;
     }
 }
 

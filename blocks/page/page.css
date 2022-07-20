@@ -15,7 +15,3 @@
     -webkit-font-smoothing: antialiased; 
     -moz-osx-font-smoothing: grayscale;   
 }
-
-.page::-webkit-scrollbar {
-    width: 0;
-  }
