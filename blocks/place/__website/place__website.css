@@ -13,8 +13,24 @@
     gap: 12px;
 }
 
+@media screen and (max-width: 1279.9px){
+    .place__website{
+        width: calc(456/928*100%);
+        min-width: 456px;
+    }
+}
+
+@media screen and (max-width: 1023.9px){
+    .place__website{
+        width: calc(352/720*100%);
+        min-width: 352px;
+        gap: 25px;
+    }
+}
+
 @media screen and (max-width: 767.9px){
     .place__website{
+        width: auto;
         padding-left: 5%;
         min-width: 288px;
     }
