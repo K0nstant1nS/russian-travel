@@ -5,5 +5,7 @@
     height: 100%;
     background: #2A2C2F;
     opacity: .3;
+    -webkit-transition: opacity .5s ease;
+    -o-transition: opacity .5s ease;
     transition: opacity .5s ease;
 }

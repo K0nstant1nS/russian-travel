@@ -2,6 +2,8 @@
     font-size: 18px;
     line-height: 22px;
     color: #FFFFFF;
+    -webkit-transition: opacity .5s ease;
+    -o-transition: opacity .5s ease;
     transition: opacity .5s ease;
 }
 

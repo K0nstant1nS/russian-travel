@@ -4,14 +4,13 @@
     line-height: 1.4;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    -ms-grid-row-align: center;
-        align-self: center;
 }
 
 @media screen and (max-width: 1279.9px){
     .lead__caption{
         padding-top: 8px;
-        align-self: flex-start;
+        -ms-flex-item-align: start;
+            align-self: flex-start;
     }
 }
 

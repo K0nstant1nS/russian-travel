@@ -4,6 +4,8 @@
     font-weight: 400;
     line-height: 28px;
     font-size: 24px;
+    -webkit-transition: opacity .5s ease;
+    -o-transition: opacity .5s ease;
     transition: opacity .5s ease;
 }
 
