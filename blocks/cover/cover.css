@@ -1,6 +1,8 @@
 .cover{
     max-width: 1184px;
+    min-width: 320px;
     max-height: 740px;
+    min-height: 200px;
     position: relative;
     -ms-grid-row-align: center;
         -ms-flex-item-align: center;
