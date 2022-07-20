@@ -1,4 +1,4 @@
-.place__image{
+/*.place__image{
     width: calc(460/984*100%);
     -o-object-fit: contain;
        object-fit: contain;
@@ -26,4 +26,8 @@
         width: 100%;
         min-width: 320px;
     }
+} */
+
+.place__image{
+    width: 100%;
 }
