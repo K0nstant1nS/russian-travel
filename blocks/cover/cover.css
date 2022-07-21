@@ -1,38 +1,21 @@
 .cover{
+    background-image: url('../../images/Baikal_backgtound.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
     max-width: 1184px;
     min-width: 320px;
-    max-height: 740px;
-    min-height: 200px;
+    min-height: 740px;
     position: relative;
-    -ms-grid-row-align: center;
-        -ms-flex-item-align: center;
-        align-self: center;
     width: 92.5%;
-    height: calc(740/1184*100vw*0.925);
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    gap: 32px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
 }
 
 .cover:hover .cover__overlay{
     opacity: .8;
-    cursor: pointer;
 }
 
 @media screen and (max-width: 1279.9px){
     .cover{
         width: 100%;
-        height: calc(740/1184*100vw);
+        min-height: calc(740/1184*100vw);
     }
 }
