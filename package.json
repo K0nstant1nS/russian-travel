@@ -1,0 +1,13 @@
+{
+  "name": "russian-travel",
+  "version": "1.0.0",
+  "description": "Учебный проект от *Яндекс Практикум*, второй спринт",
+  "homepage": "https://github.com/K0nstant1nS/russian-travel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
